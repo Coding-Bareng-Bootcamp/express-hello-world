@@ -11,8 +11,6 @@ var app = express();
 
 
 // Hello World!
-const port = 3000;
-
 app.get('/', (req, res) => {
   res.send('Hello World!')
 });
